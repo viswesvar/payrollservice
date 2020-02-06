@@ -30,7 +30,7 @@ Afterward the generated image is going to be stored in your local Docker reposit
 ## Endpoints
 | Name 	| Path 	| Method 	| Content-Type 	| Description 	|
 |------	|------	|--------	|--------------	|-------------	|
-|   Get all Payrolls   	|   /api/payslips?year={year}&month={month}   	|     GET   	| application/json              	| Return all payslips from the given period           	|
+|   Get all Payslips   	|   /api/payslips?year={year}&month={month}   	|     GET   	| application/json              	| Return all payslips from the given period           	|
 |   Update Tax Rate   	|   /api/payslips?year={year}&month={month}&taxRate={rate}   	|      PUT  	| application/json             	|     Update the current tax rate from the given period       	|
 
 ### Swagger 
