@@ -12,3 +12,4 @@ addons:
 
 script:
     - sonar-scanner
+    - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.login=viswesvar@github
