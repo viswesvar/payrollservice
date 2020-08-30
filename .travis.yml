@@ -3,4 +3,3 @@ language: java
 deploy:
     provider: script
     script: "mvn clean install"
-    skip_cleanup: true
