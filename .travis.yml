@@ -6,7 +6,7 @@ deploy:
 
 addons:
     sonarcloud:
-        organization: "Viswesvar" #test
+        organization: "SONAR_TOKEN" #test
         token:
             secure: "efdd1837d2aade79b0b894614c7645dd0e1e9d5a"
 
